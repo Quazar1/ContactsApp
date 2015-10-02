@@ -1,0 +1,130 @@
+<!--/**-->
+<!--* Assignment: HW_2-->
+<!--* Created by Thurman Bates Jernigan, Arjun Kabballi Srinivasa, Tempestt Swinson-->
+<!--* File Name: activity_display_contact.xml-->
+<!--*/-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.example.contactsapp.DisplayContactsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Name_Label"
+        android:id="@+id/Name_Label"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/Name_Field"
+        android:layout_alignBottom="@+id/Name_Label"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Phone_label"
+        android:id="@+id/Phone_Label"
+        android:layout_below="@+id/Name_Label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/Phone_Field"
+        android:layout_alignBottom="@+id/Phone_Label"
+        android:layout_alignLeft="@+id/Name_Field"
+        android:layout_alignStart="@+id/Name_Field" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Email_Label"
+        android:id="@+id/Email_Label"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/Phone_Label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/Email_Field"
+        android:layout_alignTop="@+id/Email_Label"
+        android:layout_alignLeft="@+id/Phone_Field"
+        android:layout_alignStart="@+id/Phone_Field" />
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/PrevBtn"
+        android:src="@drawable/prev_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/Phone_Label"
+        android:layout_toEndOf="@id/Phone_Label" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/PrevBtn"
+        android:text="@string/finishBtn"
+        android:id="@+id/finishBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/NextBtn"
+        android:src="@drawable/next_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/finishBtn"
+        android:layout_toEndOf="@id/finishBtn" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstContactbtn"
+        android:src="@drawable/firstbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/PrevBtn"
+        android:layout_toStartOf="@id/PrevBtn" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastContactbtn"
+        android:src="@drawable/lastbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/NextBtn"
+        android:layout_toEndOf="@id/NextBtn" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/photo"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/avatar_blank"
+        android:layout_below="@id/Email_Field"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

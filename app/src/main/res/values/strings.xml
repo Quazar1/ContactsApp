@@ -1,0 +1,47 @@
+<!--/**-->
+<!--* Assignment: HW_2-->
+<!--* Created by Thurman Bates Jernigan, Arjun Kabballi Srinivasa, Tempestt Swinson-->
+<!--* File Name: strings.xml-->
+<!--*/-->
+
+<resources>
+    <string name="app_name">Contacts App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="create_contact_label">Create Contact</string>
+    <string name="edit_contact_label">Edit Contact</string>
+    <string name="delete_contact_label">Delete Contact</string>
+    <string name="display_contact_label">Display Contact</string>
+    <string name="finish_label">Finish Contact</string>
+    <string name="enter_name_label">Enter your name</string>
+    <string name="enter_label">Enter</string>
+    <string name="select_contact_label">Select Contact</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="email_hint">Email</string>
+    <string name="calling_activity_message">The calling activity was</string>
+    <string name="title_activity_create_contact">Create Contact</string>
+    <string name="title_activity_edit_contact">Edit Contact</string>
+    <string name="title_activity_delete_contact">Delete Contact</string>
+    <string name="title_activity_display_contacts">Display Contacts</string>
+    <string name="name_edit_text_placeholder">Name</string>
+    <string name="phone_edit_text_placeholder">Phone Number</string>
+    <string name="email_edit_text_placeholder">Email</string>
+    <string name="cancel_contact_activity">Cancel</string>
+    <string name="default_blank_avatar_path">
+        android.resource://com.example.contactsapp/drawable/avatar_blank
+    </string>
+
+    <!-- delete contact activity ****************************************************************-->
+    <string name="Name_Label">Name:</string>
+    <string name="Phone_label">Phone #:</string>
+    <string name="Email_Label">Email:</string>
+    <string name="Next_Button">Next</string>
+    <string name="previous_button">Previous</string>
+    <string name="first_contact_btn">first</string>
+    <string name="last_contact_btn">last</string>
+    <string name="Select_Contact">Select Contact</string>
+    <string name="Delete_Contact">Delete</string>
+    <string name="Cancel_Button">Cancel</string>
+    <string name="finishBtn">Finish</string>
+</resources>
